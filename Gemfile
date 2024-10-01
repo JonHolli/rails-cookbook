@@ -22,8 +22,18 @@ gem "jbuilder"
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
 
+gem 'simple_form'
+
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
 # gem "bcrypt", "~> 3.1.7"
+
+# Gemfile
+# [...]
+gem "bootstrap", "~> 5.2"
+gem "autoprefixer-rails"
+gem "font-awesome-sass", "~> 6.1"
+gem "simple_form"
+gem "sassc-rails" # Uncomment this line
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: %i[ mswin mswin64 mingw x64_mingw jruby ]

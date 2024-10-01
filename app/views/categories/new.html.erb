@@ -1,6 +1,10 @@
-<h1>new category</h1>
-<%= simple_form_for @category do |f| %>
-<%= f.input :name %>
-<%= f.button :submit %>
-<% end %>
-<%= link_to "back", categories_path %>
+<div class="form-new mt-5">
+  <h1>Add a new Category</h1>
+
+  <%= simple_form_for @category do |f| %>
+    <%= f.input :name %>
+    <%= f.input :comment %>
+    <%= f.input :photo, as: :file %>
+    <%= f.button :submit, class: 'btn btn-info' %>
+  <% end %>
+</div>
